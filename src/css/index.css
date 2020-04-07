@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 100px;
+}
+
+.tabla {
+  width: 100%;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.tabla td {
+  padding: 10px 5px;
+}
+
+.tabla th {
+  color: red;
+  padding: 10px 5px 0px;
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+  background-color: #253a46;
+}
+
+.navbar-nav ul {
+  list-style-type: none;
+  margin: 0px 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.navbar-nav li {
+  margin-right: 10px;
+  float: left;
+}
+
+.navbar-nav li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.spinner {
+  text-align: center;
+}
+
+.post {
+  border-top: 1px solid black;
+}
